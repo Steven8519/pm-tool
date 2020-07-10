@@ -1,13 +1,13 @@
-package com.devhubsocial.pjmt.projectmanagementtool;
+package com.devhubsocial.pjmt.pmtool;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjectManagementToolApplication {
+public class PmToolApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProjectManagementToolApplication.class, args);
+        SpringApplication.run(PmToolApplication.class, args);
     }
 
 }

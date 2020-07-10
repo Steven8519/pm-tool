@@ -1,10 +1,10 @@
-package com.devhubsocial.pjmt.projectmanagementtool;
+package com.devhubsocial.pjmt.pmtool;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProjectManagementToolApplicationTests {
+class PmToolApplicationTests {
 
     @Test
     void contextLoads() {

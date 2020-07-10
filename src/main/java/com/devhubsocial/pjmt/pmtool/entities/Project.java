@@ -1,4 +1,4 @@
-package com.devhubsocial.pjmt.projectmanagementtool.entities;
+package com.devhubsocial.pjmt.pmtool.entities;
 
 import lombok.Data;
 import lombok.Getter;
@@ -14,7 +14,6 @@ import javax.persistence.Id;
 @Getter
 @Setter
 public class Project {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long projectId;
